@@ -1,0 +1,170 @@
+[
+  {
+    "question": "What is the primary difference between a stack and a queue?",
+    "answer": "A stack follows the Last-In-First-Out (LIFO) principle, where elements are added and removed from the same end. A queue follows the First-In-First-Out (FIFO) principle, where elements are added at the rear and removed from the front."
+  },
+  {
+    "question": "Can you explain what time complexity means in algorithm analysis?",
+    "answer": "Time complexity quantifies the amount of computer time taken by an algorithm to run as a function of the length of the input. It is commonly expressed using Big-O notation, which describes the upper bound on the growth rate."
+  },
+  {
+    "question": "What is the purpose of the Domain Name System (DNS)?",
+    "answer": "DNS translates human-readable domain names like example.com into machine-readable IP addresses like 93.184.216.34, allowing network devices to route data to the appropriate destination servers."
+  },
+  {
+    "question": "What are HTTP status codes in the 400 range typically used for?",
+    "answer": "HTTP 4xx status codes indicate client-side errors, meaning the request contains bad syntax or cannot be fulfilled. Common examples include 400 Bad Request, 401 Unauthorized, and 404 Not Found."
+  },
+  {
+    "question": "How does asymmetric encryption differ from symmetric encryption?",
+    "answer": "Symmetric encryption uses a single shared secret key for both encrypting and decrypting data. Asymmetric encryption uses a mathematically linked key pair: a public key to encrypt and a private key to decrypt."
+  },
+  {
+    "question": "What is a database index and why is it used?",
+    "answer": "A database index is a data structure, such as a B-Tree or Hash index, that improves the speed of data retrieval operations on a table at the cost of additional storage and slightly slower write operations."
+  },
+  {
+    "question": "What is the difference between latency and throughput?",
+    "answer": "Latency is the time it takes for a single unit of data to travel from source to destination. Throughput is the total volume of data transmitted over a network or processed by a system within a given time frame."
+  },
+  {
+    "question": "What does ACID stand for in the context of database transactions?",
+    "answer": "ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties guarantee that database transactions are processed reliably even in the event of errors, power failures, or crashes."
+  },
+  {
+    "question": "Can you explain what a hash collision is?",
+    "answer": "A hash collision occurs when two distinct input values produce the exact same output hash code from a hash function. Collisions are handled using strategies like separate chaining or open addressing."
+  },
+  {
+    "question": "What is the purpose of an API gateway in microservices architecture?",
+    "answer": "An API gateway acts as a single reverse-proxy entry point for client requests, handling routing, composition, authentication, rate limiting, and SSL termination across internal microservices."
+  },
+  {
+    "question": "What is the difference between TCP and UDP?",
+    "answer": "TCP is a connection-oriented, reliable protocol that guarantees packet ordering and delivery through handshakes and retransmissions. UDP is connectionless and prioritizes low latency over reliability."
+  },
+  {
+    "question": "What is virtual memory and why is it beneficial?",
+    "answer": "Virtual memory is an OS memory management capability that gives an application the illusion of a contiguous address space, using a combination of RAM and disk storage, while providing hardware-enforced memory isolation."
+  },
+  {
+    "question": "What is the role of an operating system kernel?",
+    "answer": "The kernel is the core component of an OS with complete control over the system. It manages hardware resources, CPU scheduling, memory allocation, and provides system call interfaces for user processes."
+  },
+  {
+    "question": "What is a deadlock and what four conditions are necessary for it to occur?",
+    "answer": "A deadlock is a state where processes are unable to proceed because each holds a resource while waiting for another held by another process. The four Coffman conditions are: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait."
+  },
+  {
+    "question": "What does REST stand for and what are its key constraints?",
+    "answer": "REST stands for Representational State Transfer. Its architectural constraints include client-server separation, stateless communication, cacheability, uniform interface, and a layered system."
+  },
+  {
+    "question": "What is the difference between process and thread?",
+    "answer": "A process is an independent execution unit with its own dedicated memory space and resources. A thread is a lightweight sub-unit of execution within a process that shares the parent process's memory space."
+  },
+  {
+    "question": "What is cache locality?",
+    "answer": "Cache locality refers to the tendency of processors to access the same memory locations repeatedly over a short time period (temporal locality) or to access adjacent memory storage locations (spatial locality)."
+  },
+  {
+    "question": "What is the difference between IPv4 and IPv6?",
+    "answer": "IPv4 uses 32-bit addresses providing approximately 4.3 billion unique addresses. IPv6 uses 128-bit addresses, vastly expanding the address space to accommodate the proliferation of connected devices."
+  },
+  {
+    "question": "What is git cherry-pick used for?",
+    "answer": "Git cherry-pick applies the changes introduced by one or more existing commits from another branch onto the currently checked-out branch, creating new commits with identical diffs."
+  },
+  {
+    "question": "What is the CAP theorem in distributed systems?",
+    "answer": "The CAP theorem states that a distributed data store can simultaneously provide at most two of the three guarantees: Consistency, Availability, and Partition Tolerance."
+  },
+  {
+    "question": "What is the difference between optimistic and pessimistic concurrency control?",
+    "answer": "Pessimistic locking locks records upfront assuming conflicts will occur. Optimistic concurrency control allows concurrent modifications without locks and verifies before commit that no conflicting changes took place."
+  },
+  {
+    "question": "What is the purpose of an SSL/TLS certificate?",
+    "answer": "An SSL/TLS certificate cryptographically verifies the identity of a website or server and enables secure, encrypted communication between client and server via HTTPS."
+  },
+  {
+    "question": "What is a CDN (Content Delivery Network)?",
+    "answer": "A CDN is a geographically distributed network of proxy servers and data centers that caches static and streaming content closer to end-users to reduce latency and origin server load."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous I/O?",
+    "answer": "Synchronous I/O blocks the calling execution thread until the requested I/O operation completes. Asynchronous I/O initiates the operation and allows the calling thread to continue executing other work immediately."
+  },
+  {
+    "question": "What is the purpose of a load balancer?",
+    "answer": "A load balancer distributes incoming network traffic across multiple backend servers to ensure high availability, fault tolerance, and optimal resource utilization."
+  },
+  {
+    "question": "What is a message broker like Kafka or RabbitMQ used for?",
+    "answer": "A message broker enables decoupled, asynchronous communication between distributed services by buffering, routing, and delivering messages reliably across publisher and subscriber systems."
+  },
+  {
+    "question": "What is garbage collection in programming runtime environments?",
+    "answer": "Garbage collection is automated memory management that identifies and frees memory occupied by objects that are no longer accessible or referenced by the program."
+  },
+  {
+    "question": "What is the difference between compilation and interpretation?",
+    "answer": "A compiler translates high-level source code into machine code or bytecode ahead of execution. An interpreter executes the source code or bytecode directly line-by-line or statement-by-statement at runtime."
+  },
+  {
+    "question": "What is normalization in relational database design?",
+    "answer": "Database normalization is the process of structuring relational tables to minimize data redundancy and avoid insertion, update, and deletion anomalies, typically adhering to normal forms (1NF, 2NF, 3NF)."
+  },
+  {
+    "question": "What is a Bloom filter?",
+    "answer": "A Bloom filter is a space-efficient probabilistic data structure used to test set membership. It can yield false positives (reporting an item is in the set when it isn't), but never false negatives."
+  },
+  {
+    "question": "What is DNS propagation?",
+    "answer": "DNS propagation is the time it takes for updates made to DNS records on authoritative nameservers to update across recursive resolving nameservers worldwide, dictated by the record's TTL (Time To Live)."
+  },
+  {
+    "question": "What is two-phase commit (2PC)?",
+    "answer": "Two-phase commit is an atomic distributed transaction protocol consisting of a prepare phase (asking participants if they can commit) followed by a commit phase (committing if all agree, aborting otherwise)."
+  },
+  {
+    "question": "What is the difference between horizontal and vertical scaling?",
+    "answer": "Vertical scaling (scaling up) adds more compute power, RAM, or storage to an existing single machine. Horizontal scaling (scaling out) adds more machine instances to distribute the computational load."
+  },
+  {
+    "question": "What is a JWT (JSON Web Token)?",
+    "answer": "A JSON Web Token is an open standard (RFC 7519) that defines a compact, self-contained way for securely transmitting information between parties as a JSON object, digitally signed using HMAC or RSA/ECDSA."
+  },
+  {
+    "question": "What is idempotency in API design?",
+    "answer": "An operation is idempotent if applying it multiple times produces the identical side-effect as applying it once. In HTTP, GET, PUT, and DELETE methods are designed to be idempotent, while POST is not."
+  },
+  {
+    "question": "What is a memory leak?",
+    "answer": "A memory leak occurs when a computer program fails to release allocated memory that is no longer needed, causing available system memory to steadily diminish over time."
+  },
+  {
+    "question": "What does CORS stand for in web browsers?",
+    "answer": "CORS stands for Cross-Origin Resource Sharing. It is a browser security mechanism that uses HTTP headers to determine whether web applications loaded at one origin can request resources from a different origin."
+  },
+  {
+    "question": "What is circuit breaking in distributed systems?",
+    "answer": "The Circuit Breaker pattern detects failures and prevents recurring calls to an unresponsive remote service, failing fast or providing fallback responses until the remote service recovers."
+  },
+  {
+    "question": "What is the purpose of Docker containers?",
+    "answer": "Docker packages applications and all their dependencies into standardized, isolated lightweight containers that run consistently across development, staging, and production environments."
+  },
+  {
+    "question": "What is rate limiting?",
+    "answer": "Rate limiting restricts the number of requests a user or client can make to an API within a defined window of time, protecting servers from abuse, denial-of-service, and resource exhaustion."
+  },
+  {
+    "question": "What is the difference between deep copy and shallow copy?",
+    "answer": "A shallow copy duplicates the outer object container while copying references to the nested objects. A deep copy recursively duplicates the outer container as well as all nested objects contained within it."
+  },
+  {
+    "question": "What is event-driven architecture?",
+    "answer": "Event-driven architecture is a software design pattern where decoupled components communicate through the production, detection, and consumption of asynchronous events or state notifications."
+  }
+]
